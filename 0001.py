@@ -120,6 +120,3 @@ def star():
 
 if __name__ == '__main__':
     star()
-    # getBookInfo('10_10955')
-    # getChapter('10_10955')
-    # getContent('81_81025', '1048402')
