@@ -50,7 +50,7 @@ def getContent(fiction_id, chapter_id):
 
 
 def connMonGo():
-    client = MongoClient('localhost', username='fiction', password='UOY1XskEGq75', authSource='fictions',
+    client = MongoClient('localhost', username='fiction', password='', authSource='fictions',
                          authMechanism='SCRAM-SHA-256')
     db = client['fictions']
     collection = db['fictions']
